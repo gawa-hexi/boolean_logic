@@ -4,6 +4,8 @@ table_address = "/home/sky/Documents/A_projects/portfolio/boolean_logic/INPUT_tr
 truth_table = []
 tt_results = []
 
+
+#Tables Params = 4 inputs w. 2 outputs
 with open(table_address, 'r') as f:
     for line in f.readlines()[1:]:
         # print("Row (raw): ", line.strip())
